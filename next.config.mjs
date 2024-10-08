@@ -1,4 +1,8 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {};
+const nextConfig = {
+    // enable a static export
+    output: 'export',
+    distDir: 'dist',
+};
 
 export default nextConfig;
